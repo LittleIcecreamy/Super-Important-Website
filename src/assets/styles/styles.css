@@ -243,6 +243,7 @@ input[type=range]::-webkit-slider-thumb {
   background-color: #003366;
   border-radius: 50%;
   border: 3px solid #7384EF;
+  cursor: pointer;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
