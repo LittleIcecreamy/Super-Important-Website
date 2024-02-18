@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>SSP</title>
+</head>
+
+<body class="body-color">
+    <nav class="navbar navbar-bg">
+        <div class="container-fluid" style="justify-content: unset;">
+            <button class="navbar-toggler no-focus-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span><img class="hamburger-menu-img" src="./src/Assets/navbar-hamburger-menu.png"></span>
+            </button>
+            <h1>Menu</h1>
+        </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="navbar-bg p-4 nav-radius">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./index.html"><img src="./src/assets/icons/intro-icon.png"
+                            class="item-icon">
+                        <span class="text">Introdução</span></a>
+                </li>
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./trans.html"><img src="./src/assets/icons/trans-icon.png"
+                            class="item-icon">
+                        <span class="text">O que é ser trans?</span></a>
+                </li>
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./science.html"><img src="./src/assets/icons/science-icon.png"
+                            class="item-icon">
+                        <span class="text">Ciência</span></a>
+                </li>
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./life.html"><img src="./src/assets/icons/life-icon.png"
+                            class="item-icon">
+                        <span class="text">Vida</span></a>
+                </li>
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./hrt.html"><img src="./src/assets/icons/hrt-icon.png" class="item-icon">
+                        <span class="text">HRT</span></a>
+                </li>
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./changes.html"><img src="./src/assets/icons/changes-icon.png"
+                            class="item-icon">
+                        <span class="text">Mudanças</span></a>
+                </li>
+                <li class="nav-item active center-li">
+                    <a class="nav-link" href="./fim.html"><img src="./src/assets/icons/fim-icon.png" class="item-icon">
+                        <span class="text">Fim</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <div class="content-div">
+            <h1 class="main-title"><img src="./src/assets/icons/life-icon.png">Vida</h1>
+
+            <div class="sliderticks">
+                <span><img src="./src/assets/slider-icons/1.png"></span>
+                <span><img src="./src/assets/slider-icons/2.png"></span>
+                <span><img src="./src/assets/slider-icons/3.png"></span>
+                <span><img src="./src/assets/slider-icons/4.png"></span>
+                <span><img src="./src/assets/slider-icons/5.png"></span>
+            </div>
+
+            <input type="range" min="0" max="100" value="0" id="range" oninput="progressScript()" list="temperature"
+                step="25" />
+
+            <div class="content-area" id="content-1">
+                <img src="./src/assets/slider-icons/1.png">
+                <h2>~8 -> 10 anos</h2>
+
+                <p class="p-life-content">
+                    Do nada um pensamento surgiu: "imagina se eu tivesse nascido do sexo oposto, isso seria bem legal",
+                    esse pensamento surgiu e ficou na minha mente pra sempre, lembro de comentar sobre isso na escola
+                    achando que era algo normal e tudo mundo achou super esquisito, então eu só escondi esse pensamento
+                    dos outros.
+
+                </p>
+
+            </div>
+
+            <div class="content-area" id="content-2" style="display: none;">
+                <img src="./src/assets/slider-icons/2.png">
+                <h2>~10 -> 13 anos</h2>
+
+                <p class="p-life-content">
+                    Durante esse período eu comecei a ter uns sonhos onde eu era uma garota, as vezes uma garota
+                    completamente diferente, mas geralmente só eu mesmo numa "versão garota" vivendo a minha vida
+                    normalmente, mesmo ambiente, familia, etc. Depois disso acontecer eu comecei a "rezar" antes de
+                    dormir pra acordar no dia seguinte igual nos sonhos que eu tinha, onde eu era uma garota, eu não
+                    sabia o motivo de eu querer isso, mas eu só queria, parecia algo intuitivo e o "correto".
+                </p>
+                <p class="p-life-content">
+                    Eu sempre enxerguei a internet como uma realidade livre e desconectada do mundo de fora, e eu
+                    cresci na internet. Eu tinha um hábito de criar uma conta nova (em jogos (incluindo jogos offline)
+                    ou fórums) e "viver" como uma garota, eu nunca fazia algo de especial, só estava sendo eu, mas sendo
+                    enxergada e tratada como uma garota, por mais que essa fosse a única diferença, isso fazia toda a
+                    diferença, eu me sentia muito mais confortável e feliz, depois de um tempo eu deletava essas contas
+                    por vergonha, mas depois eu criaria outra conta de qualquer forma, era um ciclo de <i>criar nova
+                        conta ->
+                        sentir vergonha -> deletar -> criar nova conta</i>.
+                </p>
+                <p class="p-life-content">
+                    A essa altura eu já sabia que a sensação de ser trans, mesmo que eu não soubesse o que isso era, não
+                    era algo comum, então eu só segui com "eventualmente isso vai sumir e vou viver normalmente".
+                </p>
+            </div>
+
+            <div class="content-area" id="content-3" style="display: none;">
+                <img src="./src/assets/slider-icons/3.png">
+                <h2>~13 -> 15 anos</h2>
+
+                <p class="p-life-content">
+                    Eu comecei a interagir com mais áreas da internet, enquanto antes eu só interagia com jogos/forums
+                    específicos, agora eu interagia com pessoas engajadas politicalmente e pessoas mais velhas do que
+                    eu num geral.
+                    Com isso eu interagi com a parte mais "odiosa" e polarizada da internet, ao interagir com todo esse
+                    ódio irracional, eu comecei a reprimir a intuição que dizia que eu era na verdade uma garota e
+                    comecei
+                    a achar razões lógicas do por que ser homem é a melhor opção. A puberdade estava começando, eu olhava
+                    pra eu mesma, sentia desgosto mas dizia a mim mesmo:
+                </p>
+
+                <p class="p-life-content">
+
+                    <i>
+                        "Veja bem, ser um homem não é algo ruim, mulher menstrua e isso é terrível, fique feliz por não
+                        menstruar."
+                    </i>
+                </p>
+
+                <p class="p-life-content">
+                    O desgosto aumentava cada vez mais, e eu tinha que achar mais razões:
+                </p>
+
+                <p class="p-life-content">
+                    <i>
+                        "Olha, você pode odiar o seu corpo o quanto você quiser, mas tem que admitir que ainda é
+                        melhor do que mensturar, aliás, seios provavelmente são intrusivos e desconfortáveis. Ser um
+                        homem é logicamente melhor, querer ser uma mulher é uma decisão extremamente idiota."
+                    </i>
+                </p>
+
+                <p class="p-life-content">
+                    <i>
+                        "Ser trans deve ser terrível, primeiro que nem deve ser algo real, e sim só uma modinha, e mesmo
+                        se for real, a chance disso acontecer comigo é bem próxima de zero. E mesmo se estiver realmente
+                        me afetando, eu não quero virar um paciente para o resto da vida e nem sofrer preconceito. Vou
+                        só continuar sendo um cara."
+                    </i>
+                </p>
+
+                <p class="p-life-content">
+                    Eu sempre foquei nas partes ruins de ser uma mulher e nunca foquei nas partes positivas de ser um
+                    homem,
+                    reprimi essas sensações e suposições porque devia ser "só uma fase".
+                </p>
+
+            </div>
+
+            <div class="content-area" id="content-4" style="display: none;">
+
+                <img src="./src/assets/slider-icons/4.png">
+                <h2>16 anos -> Hoje</h2>
+
+                <p class="p-life-content">
+                    Eu parei de interagir com a parte mais "polarizada" da internet e o ensino médio estava pra começar,
+                    que magnífico.
+                </p>
+
+                <p class="p-life-content">
+                    Começou muito bem e a pandemia não foi um problema tão grande pra mim (já que eu cresci na internet,
+                    eu já estava muito acostumada com isso), eu e uns amigos (novos e velhos) ainda conversávamos
+                    bastante
+                    online.
+                    A puberdade estava chegando no seu auge, meu corpo estava cada vez mais masculinizando e eu estava
+                    odiando
+                    isso por isso só parei de me importar, "se vai ser essa porcaria mesmo, pra quê se importar?", a
+                    pandemia provavelmente ajudou isso, já que eu não via ninguém pessoalmente.
+                </p>
+
+                <p class="p-life-content">
+                    Por volta de Setembro de 2020 alguma chave virou e eu quebrei. Eu desisti de tudo, a escola tava
+                    servindo de nada e eu me isolei de tudo mundo (foi fácil, era só não responder mensagens no whatsapp
+                    kkkk). Durante todo esse tempo tinha uma coisa que estava me "perseguindo" por anos sem eu perceber,
+                    e agora começou a acontecer com mais frequência -- ou pelo menos eu percebi mais:
+                </p>
+
+                <h3>Dissociação/Despersonalização:</h3>
+
+                <p class="p-life-content">
+                    Esse é um fenômeno beeeem esquisito e difícil de colocar em palavras, mas vou tentar aqui falar
+                    sobre alguns sintomas que eu experiencio/experiencei:
+                </p>
+
+                <ul>
+                    <li>
+                        A sensação de que eu sou só um observador, e não a pessoa tomando as decisões e agindo
+                        na minha vida, eu só estou espectando outra pessoa viver a sua vida como se fosse um filme.
+                    </li>
+                    <li>
+                        Sensação de estar separada da realidade, tudo parece surreal ou falso, nada faz sentido direito,
+                        palavras param de ser palavras e viram sequências de símbolos, eu consigo ler e "interpretar"
+                        as palavras, mas não entendo realmente o que elas dizem, é como se fossem vazias sem um
+                        significado verdadeiro.
+                    </li>
+                    <li>
+                        Partes do meu corpo parecem separadas de mim, como se elas fosse maiores do que realmente são
+                        ou parecem "desmontáveis" como se fosse uma peça de lego, e ao me olhar no espelho surge uma
+                        sensação muito desconfortável e estranha, como se o meu reflexo fosse uma alucinação vazia
+                        que é uma falha na matrix, o reflexo parece fisicamente ok, mas sempre tem algo de "estranho"
+                        que eu não consigo identificar objetivamente.
+                    </li>
+                    <li>
+                        Às vezes, eu do nada "volto" pra realidade, como se minha consciência estivesse no mundo da lua
+                        e por algum motivo ela voltou do nada como um estalo, dá pra ver isso acontecer em tempo real,
+                        quando isso acontece eu só paralizo e fico olhando pro nada por alguns segundos em completo
+                        silêncio.
+                    </li>
+                    <li>
+                        Problemas de memória, eu tenho dificuldade de lembrar de eventos da minha vida e como eu me
+                        comportava quando eu tinha 12~16 anos, tem gente que diz "ah você costumava fazer isso" e
+                        eu só fico "como assim????????"
+                    </li>
+                </ul>
+
+                <p class="life-year-title">2021-2022</p>
+                <p class="p-life-content">
+                    2021 foi terrível, minhas expectativas pro ensino médio foram destruídas e todo o papo de "é só uma fase/
+                    uma hora vai sumir" estava se desmanchando, é como se o mundo que estava bem estabelecido na minha mente
+                    estivesse se desfazendo, e eu ia ter que reconstruir tudo do zero - agora sem a ajuda de ninguém, 
+                    dessa vez eu queria descobrir tudo sozinha.
+                </p>
+
+                <p class="p-life-content">
+                    2022 foi mais do mesmo, só que antes eu não gostava da escola e agora eu não gosto da escola e 
+                    dos meus colegas/amigos, por causa de brigas inúteis e chatas.
+                    Tudo começou bem, minhas expectativas pras aulas presenciais ja eram muito baixas, mas foi legal 
+                    no início por causa dos amigos e tal, mas começaram a brigar por motivo idiota, deixando 
+                    o ambiente insuportável, e eu também não podia só parar de falar com eles, as panelinhas ja estavam 
+                    bem estabelecidas e eu precisava de grupo pros trabalhos em grupo, e o ensino médio já tava acabando
+                    de qualquer forma.
+                    Todo o papo de "é só uma fase" tava sendo provado falso, mas agora era "só estou num ambiente merda,
+                    então é lógico que tudo vai ficar ruim, quando a escola acabar e eu conseguir autonomia da minha 
+                    própria vida, vai sumir."
+                </p>
+
+                <p class="life-year-title">2023</p>
+
+                <p class="p-life-content">
+                    2023 foi incrível, meu melhor ano desde que eu saí do fundamental, tentei coisas e descobri vários
+                    caminhos que eu posso tomar na minha vida, dessa vez eu realmente estava vivendo.
+                    Mais uma vez foi provado de que eu estava errado, a sensação de que na verdade eu deveria ter nascido 
+                    mulher não foi embora, mas agora eu não tinha nada pra culpar. Então só cedi e aceitei, 
+                    "Tá, então é isso mesmo, tenho que trabalhar com o que me foi dado, sou uma mulher que sofreu alguma 
+                    condição na gravidez e fez eu desenvolver como um homem. É isso. <b>EU</b> vou viver a vida que 
+                    <b>EU</b> quero viver de qualquer jeito."
+                    Pro fim do ano eu comentei sobre isso com a minha psicóloga, ela foi de boa com isso (esperado),
+                    e eu comecei a trabalhar nisso aqui que você tá vendo agora, esse é o fim da linha do tempo.
+                </p>
+
+
+            </div>
+
+            <div class="content-area" id="content-5" style="display: none;">
+                <img src="./src/assets/slider-icons/5.png">
+                <h2>Conclusão</h2>
+                <p class="p-life-content">
+                    Resumindo:
+                    <br>
+                    Por volta dos 8 anos eu "descobri" que eu era trans, mesmo que eu não soubesse o conceito de ser
+                    transgênero. Já que isso era muito esquisito pra todo mundo, por volta dos 10 anos eu comecei a 
+                    usar a internet pra viver como eu queria viver de verdade. Como era algo estranho, só me iludi dizendo
+                    a mim mesma que "isso vai passar".
+                </p>
+                <p class="p-life-content">
+                    Por volta dos 13 anos eu interagi com a parte mais polarizada da internet que me fez acreditar que 
+                    era "só uma fase", e tentei achar razões do por que ser trans seria uma "escolha" terrível.
+                </p>
+                <p class="p-life-content">
+                    Dos 16 anos até hoje eu tentei muito sustentar a idea de que ser trans era uma influência externa, 
+                    acabei abandonando umas crenças bem chatas sobre o mundo e comecei a reconstruir meu próprio "senso 
+                    comum" sem a ajuda dos outros. Depois do ensino médio eu montei todo o quebra-cabeça e finalmente cedi 
+                    à realidade de que eu sou trans, é uma peça tão importante no quebra-cabeça que explica varias coisas
+                    estranhas que acontecem/aconteceram comigo, por isso que eu evitava tanto essa peça, não era possível
+                    uma única coisa explicar várias coisas, mas fazer o que, é isso.
+                </p>
+            </div>
+
+            <script src="./components/slider.js"></script>
+
+            <div class="pager">
+                <a href="./trans.html"><button type="button" class="btn btn-primary prev-btn"><img
+                            src="./src/assets/icons/prev-icon.png">Trans</button></a>
+                <a href="./hrt.html"><button type="button" class="btn btn-primary next-btn">HRT<img
+                            src="./src/assets/icons/next-icon.png"></button></a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
