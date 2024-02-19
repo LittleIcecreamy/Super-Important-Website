@@ -243,6 +243,7 @@ input[type=range]::-webkit-slider-thumb {
   background-color: #003366;
   border-radius: 50%;
   border: 3px solid #7384EF;
+  cursor: pointer;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -264,4 +265,41 @@ input[type=range]::-webkit-slider-thumb {
 
 .p-life-content {
   text-align: left;
+}
+
+@media (max-width: 1367px) {
+  html {
+    font-size: 13px;
+  }
+  .welcome-div, .content-div {
+    margin: 6.25em 10em 6.25em 10em;
+  }
+}
+@media (max-width: 670px) {
+  html {
+    font-size: 10px;
+  }
+  .welcome-div, .content-div {
+    margin: 6.25em 0 6.25em 0;
+    padding: 3.6em 50px 3.6em 50px;
+  }
+  .navbar img {
+    width: 70%;
+  }
+  .navbar h1 {
+    margin: auto;
+    padding: 0;
+  }
+  .pager {
+    font-size: 10px;
+  }
+  .pager .next-btn, .pager .prev-btn {
+    margin-top: 1em;
+  }
+  .pager .next-btn {
+    margin-right: 5em;
+  }
+  .pager .prev-btn {
+    margin-left: 5em;
+  }
 }/*# sourceMappingURL=styles.css.map */
